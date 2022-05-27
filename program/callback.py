@@ -22,9 +22,8 @@ async def cbstart(_, query: CallbackQuery):
         f"""✨ **مرحبا عزيزي »「 [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) 」!**\n
 💭 **انا بوت استطيع تشغيل الموسيقي والفديو في محادثتك الصوتية**
 
-💡 تعلم طريقة تشغيلي واوامر التحكم بي عن طريق  » 📚 الاوامر !
+💡 تعلم طريقة تشغيلي واوامر التحكم بي عن طريق  » - الاوامر . !
 
-🔖 لتعلم طريقة تشغيلي بمجموعتك اضغط علي » ❓طريقة التفعيل !
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -77,7 +76,7 @@ async def cbguides(_, query: CallbackQuery):
 ⚡ قناة البوت @{UPDATES_CHANNEL}
 """,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
+            [[InlineKeyboardButton("- رجـوع .", callback_data="cbstart")]]
         ),
     )
 
@@ -92,12 +91,12 @@ async def cbcmds(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("👷🏻 اوامر الادمنيه", callback_data="cbadmin"),
-                    InlineKeyboardButton("🧙🏻 اوامر المطور", callback_data="cbsudo"),
+                    InlineKeyboardButton("- اوامـر الادمـنـيـه .", callback_data="cbadmin"),
+                    InlineKeyboardButton("- اوامـر الـمـطـور .", callback_data="cbsudo"),
                 ],[
-                    InlineKeyboardButton("📚 اوامر اساسيه", callback_data="cbbasic")
+                    InlineKeyboardButton("- اوامـر الـتـشـغـيـل .", callback_data="cbbasic")
                 ],[
-                    InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")
+                    InlineKeyboardButton("- رجـوع .", callback_data="cbstart")
                 ],
             ]
         ),
@@ -123,7 +122,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /alive「اظهار معلومات البوت(في المجموعه)」
 ⚡ قناة البوت @{UPDATES_CHANNEL}""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 رجوع", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("- رجـوع .", callback_data="cbcmds")]]
         ),
     )
 
@@ -146,7 +145,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotleave「لطرد الحساب المساعد」
 ⚡ قناة البوت @{UPDATES_CHANNEL}""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 رجوع", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("- رجـوع .", callback_data="cbcmds")]]
         ),
     )
 
@@ -165,7 +164,7 @@ async def cbsudo(_, query: CallbackQuery):
 
 ⚡ قناة البوت @{UPDATES_CHANNEL}""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 رجوع", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("- رجـوع .", callback_data="cbcmds")]]
         ),
     )
 
