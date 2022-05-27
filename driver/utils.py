@@ -12,7 +12,8 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from pytgcalls.types.stream import StreamAudioEnded
-
+from config import (
+    BOT_USERNAME,
 
 keyboard = InlineKeyboardMarkup(
     [
@@ -23,7 +24,7 @@ keyboard = InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                         "- ضـيـف الـبـوت لـمـجـموعـتـك .",
-                        url=f'https://t.me/music_bbot?startgroup=true'
+                        url=f'https://t.me/{BOT_USERNAME}?startgroup=true'
                 )
             ],
         ]
