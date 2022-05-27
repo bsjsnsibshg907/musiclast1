@@ -44,30 +44,32 @@
         "SUDO_USERS": {
             "description": "قم بوضع ايدي المطور الاساسي",
             "required": true,
-            "value": ""
+            "value": "5227347612"
         },
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": ""
+            "value": "G_RO_UP_1"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": ""
+            "value": "APP_YOUTUBE"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": ""
+            "value": "VR_NJ"
         },
         "BOT_PHOTO": {
-            "description": "ضع لينك صورة البوت من هنا @T_ELEGRAPH00BOT",
+            "description": "ضع لينك صورة",
             "required": true
+            "value": "https://telegra.ph/file/548483f508a91b65a67d9.jpg"
         },
         "DEV_PHOTO": {
             "description": "ضع لينك صورة حساب مطور البوت من هنا @T_ELEGRAPH00BOT",
             "required": true
+            "value": "https://telegra.ph/file/548483f508a91b65a67d9.jpg"
         },
         "DEV_NAME": {
             "description": "ضع اسم حساب التليجرام الخاص بالمطور",
@@ -86,7 +88,7 @@
         "UPSTREAM_REPO": {
             "description": "اتركه كما هوا",
             "required": true,
-            "value": "https://github.com/USDDBOOT/Shadow"
+            "value": "https://github.com/DevMhmd/music-3"
         }
     },
     "addons": [],
