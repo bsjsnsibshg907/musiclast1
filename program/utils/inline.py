@@ -17,7 +17,7 @@ def stream_markup(user_id):
     [
     InlineKeyboardButton(
                         "- ضـيـف الـبـوت لـمـجـموعـتـك .",
-                        url=f'https://t.me/{BOT_USERNAME}?startgroup=true'),
+                        url=f'https://t.me/BBSBBOT?startgroup=true'),
     ],
   ]
   return buttons
