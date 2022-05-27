@@ -64,12 +64,10 @@
         "BOT_PHOTO": {
             "description": "ضع لينك صورة",
             "required": true
-            "value": "https://telegra.ph/file/548483f508a91b65a67d9.jpg"
         },
         "DEV_PHOTO": {
             "description": "ضع لينك صورة حساب مطور البوت من هنا @T_ELEGRAPH00BOT",
             "required": true
-            "value": "https://telegra.ph/file/548483f508a91b65a67d9.jpg"
         },
         "DEV_NAME": {
             "description": "ضع اسم حساب التليجرام الخاص بالمطور",
