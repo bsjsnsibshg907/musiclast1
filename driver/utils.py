@@ -23,7 +23,7 @@ keyboard = InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                         "- ضـيـف الـبـوت لـمـجـموعـتـك .",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        url=f'https://t.me/music_bbot?startgroup=true'
                 )
             ],
         ]
