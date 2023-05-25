@@ -1,5 +1,5 @@
 # this docker will installed latest build version of NodeJs and Python version
-FROM pull nikolaik/python-nodejs:latest
+FROM pull
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
     && apt-get clean \
